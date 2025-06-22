@@ -54,7 +54,7 @@ let [modal, setModal] = useState(false);
         글제목.map(function(a, i) {
           return (
             <div className='list'>
-              <h4 onClick={()=>{setModal(!modal)}}>{ 글제목[i] } 
+              <h4 onClick={()=>{setModal(true)}}>{ 글제목[i] } 
                 <span onClick={()=>{ // state가 array자료일땐 복사부터 하고 그거 수정
                   let copy = [...따봉];
                   copy[i] = copy[i] + 1
