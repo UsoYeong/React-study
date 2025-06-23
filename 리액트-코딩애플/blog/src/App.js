@@ -6,11 +6,11 @@ import { useState } from 'react';
 
 function App() {
 
-let [logo, setLogo] = useState('ReactBlog');
-let [글제목, 글제목변경] = useState(['남자 코트 추천', '강남 우동 맛집', '파이썬 독학']);
-let [따봉, 따봉변경] = useState([0, 0, 0]);
+  let [logo, setLogo] = useState('ReactBlog');
+  let [글제목, 글제목변경] = useState(['남자 코트 추천', '강남 우동 맛집', '파이썬 독학']);
+  let [따봉, 따봉변경] = useState([0, 0, 0]);
 
-let [modal, setModal] = useState(false);
+  let [modal, setModal] = useState(false);
 
   return (
     <div className="App">
