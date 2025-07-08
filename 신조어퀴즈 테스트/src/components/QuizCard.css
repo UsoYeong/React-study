@@ -9,8 +9,9 @@
 }
 
 .quiz-card {
-  width: 100%;
-  max-width: 400px;
+  width: 355px;
+  height: 550px;
+  max-height: 874px;
   background-color: white;
   border-radius: 15px;
   padding: 20px 16px;
