@@ -1,0 +1,120 @@
+.answer-container {
+  min-height: 100vh;
+  background-color: #6BC2DA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.answer-card {
+  width: 355px;
+  height: 828px;
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px 16px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* O or X 스타일 */
+.ox-symbol {
+  font-size: 80px;
+  font-weight: 900;
+  margin: 10px auto 0;
+}
+
+.ox-symbol.circle {
+  color: #2F00FF;
+}
+
+.ox-symbol.cross {
+  color: #E60000;
+}
+
+/* 결과 텍스트는 항상 검정색 */
+.result-text {
+  color: #000;
+  font-size: 24px;
+  font-weight: 900;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+/* 퀴즈 이미지 */
+.quiz-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  object-fit: cover;
+  margin: 10px auto;
+}
+
+/* 정답 텍스트 */
+.answer-label {
+  font-size: 22px;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.answer-text {
+  font-size: 32px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+/* 섹션 타이틀 */
+.section-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+
+/* 의미/예시 박스 */
+.section-box {
+  background-color: #D5E3F0;
+  border-radius: 20px;
+  padding: 14px;
+  margin: 6px auto;
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+  line-height: 1.6;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* 버튼 영역 */
+.button-group {
+  display: flex;
+  justify-content: space-around;
+  margin-top: auto;
+  padding-top: 20px;
+}
+
+.btn {
+  width: 80px;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  cursor: pointer;
+  color: black;
+}
+
+.btn.home {
+  background-color: #F4B938;
+}
+
+.btn.next {
+  background-color: #38ACF4;
+}
+
+.btn.explain {
+  background-color: #82C75E;
+}
