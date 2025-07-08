@@ -1,0 +1,63 @@
+/* HelpScreen.css */
+.help-container {
+  min-height: 100vh;
+  background-color: #6BC2DA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.help-card {
+  width: 355px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+.help-title {
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 12px;
+}
+
+.help-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin: 10px auto;
+  display: block;
+}
+
+
+.section-title {
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 16px;
+}
+
+.section-box {
+  background-color: #D5E3F0;
+  padding: 14px;
+  margin-top: 6px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  line-height: 1.6;
+}
+
+.btn-back {
+  margin-top: 20px;
+  background-color: #70B7F1;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  color: black;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}

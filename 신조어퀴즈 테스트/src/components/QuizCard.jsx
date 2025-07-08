@@ -1,9 +1,11 @@
 import React from 'react';
 import './QuizCard.css';
+import { useNavigate } from 'react-router-dom'; // ✅ 추가
 
 export default function QuizCard({ quiz, onAnswer }) {
   const colors = ['pink', 'lightyellow', 'lightblue', 'lightgreen'];
-  const optionLabels = ['가', '나', '다', '라']; // 보기 앞 글자 지정
+  const optionLabels = ['가', '나', '다', '라'];
+  const navigate = useNavigate(); // ✅ 추가
 
   return (
     <div className="quiz-container">
@@ -26,6 +28,13 @@ export default function QuizCard({ quiz, onAnswer }) {
               </span>
             </button>
           ))}
+        </div>
+
+        {/* ✅ 여기 도움말 버튼 추가 */}
+        <div className="help-button-container">
+          <button className="btn-help" onClick={() => navigate('/help')}>
+            도움말
+          </button>
         </div>
       </div>
     </div>

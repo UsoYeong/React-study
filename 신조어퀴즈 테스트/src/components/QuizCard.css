@@ -95,3 +95,27 @@
 .option-text {
   font-weight: bold;
 }
+
+.help-button-container {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.btn-help {
+  background-color: #f4cf48;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  transition: all 0.1s ease-in-out;
+}
+
+.btn-help:active {
+  transform: scale(0.96);
+  box-shadow: none;
+}
+
