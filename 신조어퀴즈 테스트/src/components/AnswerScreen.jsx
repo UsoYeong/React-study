@@ -8,7 +8,7 @@ export default function AnswerScreen({ quiz, selected, onNext, onHome, onExplain
     <div className="answer-container">
       <div className="answer-card">
         
-        {/* O 또는 X */}
+        {/* O 또는 X 아이콘 */}
         <div className={`ox-symbol ${isCorrect ? 'circle' : 'cross'}`}>
           {isCorrect ? 'O' : 'X'}
         </div>

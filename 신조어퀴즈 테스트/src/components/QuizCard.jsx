@@ -3,7 +3,7 @@ import './QuizCard.css';
 
 export default function QuizCard({ quiz, onAnswer }) {
   const colors = ['pink', 'lightyellow', 'lightblue', 'lightgreen'];
-  const optionLabels = ['가', '나', '다', '라']; // 보기 앞 글자 수동 지정
+  const optionLabels = ['가', '나', '다', '라']; // 보기 앞 글자 지정
 
   return (
     <div className="quiz-container">

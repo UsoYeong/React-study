@@ -2,7 +2,7 @@ import React from 'react';
 import './AnswerExplain.css';
 
 export default function AnswerExplain({ quiz, onBack }) {
-  const optionLabels = ['가', '나', '다', '라']; // 직접 지정된 보기 라벨
+  const optionLabels = ['가', '나', '다', '라']; // 보기 라벨
 
   return (
     <div className="explain-container">
