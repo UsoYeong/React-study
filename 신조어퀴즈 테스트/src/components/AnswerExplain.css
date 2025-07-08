@@ -58,4 +58,12 @@
   cursor: pointer;
   margin-top: 10px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+
+   /* 클릭 효과 추가 */
+  transition: all 0.1s ease-in-out;
+}
+
+.btn-back:active {
+  transform: scale(0.96);
+  box-shadow: none;
 }
